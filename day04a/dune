@@ -1,0 +1,4 @@
+(executable
+ (public_name day04a)
+ (name main)
+ (libraries core stdint stdio))
