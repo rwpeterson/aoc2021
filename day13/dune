@@ -1,0 +1,5 @@
+(executable
+ (public_name day13)
+ (name main)
+ (libraries core stdint stdio)
+ (preprocess (pps ppx_jane)))
