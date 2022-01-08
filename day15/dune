@@ -1,0 +1,5 @@
+(executable
+ (public_name day15)
+ (name main)
+ (libraries core core_kernel.pairing_heap core_kernel.fheap stdio)
+ (preprocess (pps ppx_jane)))
