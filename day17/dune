@@ -1,0 +1,5 @@
+(executable
+ (public_name day17)
+ (name main)
+ (libraries core tyre stdio)
+ (preprocess (pps ppx_jane)))
